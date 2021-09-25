@@ -10,4 +10,8 @@ func main() {
 	for d := 0; d < len(days); d++ {
 		fmt.Println(days[d])
 	}
+
+	for i := range days {
+		fmt.Println(days[i])
+	}
 }
